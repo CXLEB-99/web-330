@@ -1,2 +1,4 @@
-# web-330
-Enterprise Javascript 2
+# WEB 330 Enterprise JavaScript II
+## Contributors 
+* Professor Richard Krasso
+* Caleb Goforth
