@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      Pragmatic JavaScript
+      Chapter 4
+      Programming Assignment
+
+      Author: Caleb Goforth
+      Date: 12/16/2024
+      Filename: index.html
+    -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Movie Info Lookup</h1>
+    </header>
+    <div class="form-container">
+      <form id="movie-form">
+        <input type="text" id="title-input" placeholder="Enter movie title" />
+        <button type="submit">Search</button>
+      </form>
+      <div id="movie-info">
+        <h2 id="movie-title"></h2>
+        <p id="movie-director"></p>
+        <p id="movie-year"></p>
+        <p id="movie-synopsis"></p>
+      </div>
+      <p id="error-message"></p>
+    </div>
+    <footer>
+      <p>&copy; 2024 Caleb Goforth</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
